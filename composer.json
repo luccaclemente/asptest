@@ -1,0 +1,21 @@
+{
+    "name": "lucca/asptest",
+    "description": "Alter Solutions technical challenge.",
+    "type": "project",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ASPTest\\": "src"
+        },
+        "classmap": ["src"]
+    },
+    "authors": [
+        {
+            "name": "Lucca da Silva",
+            "email": "luccacdasilva@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.3"
+    }
+}

@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use ASPTest\App\Commands\UserCreateCommand;
+use ASPTest\App\Commands\UserChangePasswordCommand;
+
+$app = new Application();
+$app->add(new UserCreateCommand());
+$app->add(new UserChangePasswordCommand());
+$app->run();
